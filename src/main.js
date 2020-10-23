@@ -71,7 +71,7 @@ new Vue({
   },
   template: `
     <div>
-      <Demo message="你好 props"/>
+      // <Demo message="你好 props"/>
       {{n}}
       <Demo :message="n" :fn="add"/>
     </div>
